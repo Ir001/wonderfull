@@ -1,0 +1,38 @@
+@media screen and (max-width: 720px){
+	.head{
+		width: 100%;
+		margin: 0px auto;
+	}
+	input.search{
+		width: 80%;
+	}
+	.parrent-box{
+		flex-direction: column;
+	}
+	.f-row{
+		flex-direction: row;
+	}
+	.navbar{
+		flex-direction: column;
+	}
+	.navbar li:nth-child(2){
+		margin-left: 0px;
+	}
+	.box-tour{
+		/*flex: 100%;*/
+	}
+	.why{
+		flex-direction: column;
+	}
+	.why-left{
+		flex:100%;
+	}
+}
+@media screen and (min-width: 920px and max-width: ){
+	/*.box-tour{
+		flex: none;
+		width: calc((87%/2));
+	}
+	
+	*/
+}
